@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Design Square</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./assests/css/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Manrope&family=Train+One&display=swap" rel="stylesheet">
+    <script src="./assests/js/scrollreveal.min.js"></script>
+ 
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo">
+            <img src="./assests/images/logo.jpg" alt="Logo">
+        </div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#products">Products</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact US</a></li>
+        </ul>
+        <ul class="dropdown-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#products">Products</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact US</a></li>
+        </ul>
+        <div class="toggle-menu" onclick="toggleNavLinks()">
+            <span class="toggle-icon"></span>
+            <span class="toggle-icon"></span>
+            <span class="toggle-icon"></span>
+        </div>
+    </div>
+
+    <div class="main">
+
+        <section id="home" class="home-container">
+            <div class="home_content_div">
+                <h1 class="home_content_div_h1">THE MAGICAL PLANETARY</h1>
+                <h2 class="home_content_div_h2">Gather Affinity of Dream Space</h2>
+                <p class="home_content_div_p">Design Square (PVT) Ltd, the prominent and most promising total interior solutions provider, proposes a complete approach to Design and Architecture in the Country. We know how in which beat in which tone the pulse of our clients' blink and as per that only the magic happend in the magical space in an illustrious manner. </p>
+                <button class="home_content_div_btn_explore">Explore<i class="ri-arrow-right-down-line button__icon" style="padding: 10px; font-size: 16px; "></i></button>
+            </div>
+        </section>
+
+        <section id="about" class="about-container">
+            <div class="about_img_div">
+                <img src="./assests/images/AboutAll.png" alt="" >
+            </div>
+           <div class="about_content_div">
+                <h2 class="about_content_div_h2">ABOUT US</h2>
+                <h3 class="about_content_div_h3">Creative solutions by professional designers</h3>
+                <p class="about_content_div_p">We are a distinguished comprehensive interior solutions provider with more than SEVEN years in the industry established in 2015. We are in a stance to set any given task to complete and deliver within just in time and we have that caliber, capacity to perform and our clients and projects are witnessed the said features together with superiority of our accomplished assignments.</p>
+                <button class="home_content_div_btn_explore">About Us<i class="ri-arrow-right-down-line button__icon" style="padding: 10px; font-size: 16px;"></i></button>
+           </div>
+        </section>
+       
+        <section id="methodology" class="methodology-container">
+            <div class="methodology_header">
+                <div class="">
+                    <h1 class="methodology_hiden_title">METHODOLOGY</h1>
+                    <h2 class="methodology_title">Our Process</h2>
+                </div>
+            </div>
+            <div class="timeline">
+                <div class="timeline-line"></div>
+
+                <div class="step_wrap clicked"> 
+                    <div class="step" onclick="loadDescription(1)">Meet & Agree</div>
+                    <div class="vertical-line"></div>
+                </div>
+                
+                
+                <div class="step_wrap"> 
+                    <div class="step" onclick="loadDescription(2)">Idea & Concept</div>
+                    <div class="vertical-line"></div>
+                </div>
+
+                <div class="step_wrap"> 
+                    <div class="step" onclick="loadDescription(3)">Design & Create</div>
+                    <div class="vertical-line"></div>
+                </div>
+
+                <div class="step_wrap"> 
+                    <div class="step" onclick="loadDescription(4)">Build & Install</div>
+                    <div class="vertical-line"></div>
+                </div>
+               
+            </div>
+
+            <div id="description" class="methodology_description">
+                Description-01 ---We are furnishing a service spread from residential domestic houses to commercial and star grade office interior spaces in Sri Lanka. The artistic and architectural value of our designs seconds our name, the Design Square again and again. The creativity and the tailormade nature which well-matched with the client needs have elevated our projects and assignments in a higher rank branch, top notch in the design world tree.
+            </div>
+        </section>
+
+        <section id="services" class="new_services-container">
+            <div class="new_services_header">
+                <div class="">
+                    <h1 class="new_services_hiden_title">OUR SERVICES</h1>
+                    <h2 class="new_services_title">Our Awesome Services</h2>
+                </div>
+            </div>
+            <div>
+                <p class="topic_p">A little bit of what we have done just to share & sense our bottom heart pleasure by designing and building these amazing things with you.</p>
+            </div>
+            <div class="new_services_row_wrap">
+                <div class="new_services_col_wrap-img">
+                    <div class="img_wrap-l">
+                        <div class="img_back_green-l">    
+                        </div>
+                        <img src="./assests/images/p-img8.jpg" alt="" class="new_services-img-l">
+                    </div>
+                   
+                </div>
+                <div class="new_services_col_wrap-des new_services_col_wrap-des-l">
+                    <h1 class="services_h1">Service One</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adi Molestiae aperiam quibusdam placeat laborum iure optio porro eligeagnam soluta, natus atque cumque tempora numquamndi ad max impedit quas exercitationem, nemo laboriosam. ime.</p>
+                    <p>Lorem ipsum dolor sit a. consectetur adipisicing elit. Earum quibusdam eveniet debitis pisicing elit. Earum quibusdam eveniet debitis m quo molestias dolor, laborum voluptas similique vel commodi. Odio, nostrum optio? Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, </p>
+                    <p>Lorem ipsum dolor sit a. consectetur adipisicing elit. Earum quibusdam eveniet debitis nemo iusto repellendus amet maiores exercitationem voluptates perferendis laudantium, veniam earum tempore natus eligendi rem maxime quam. Enim totam dicta eveniet! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque ullam inventore aperiam fugit quos </p>
+                </div>
+            </div>
+
+            <div class="new_services_row_wrap">
+               
+                <div class="new_services_col_wrap-des  new_services_col_wrap-des-r">
+                    <h1 class="services_h1">Service Two</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adi Molestiae aperiam quibusdam placeat laborum iure optio porro eligeagnam soluta, natus atque cumque tempora numquamndi ad max impedit quas exercitationem, nemo laboriosam. ime.</p>
+                    <p>Lorem ipsum dolor sit a. consectetur adipisicing elit. Earum quibusdam eveniet debitis pisicing elit. Earum quibusdam eveniet debitis m quo molestias dolor, laborum voluptas similique vel commodi. Odio, nostrum optio? Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, </p>
+                    <p>Lorem ipsum dolor sit a. consectetur adipisicing elit. Earum quibusdam eveniet debitis nemo iusto repellendus amet maiores exercitationem voluptates perferendis laudantium, veniam earum tempore natus eligendi rem maxime quam. Enim totam dicta eveniet! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque ullam inventore aperiam fugit quos </p>
+                </div>
+
+                <div class="new_services_col_wrap-img new_services_col_wrap-img-r">
+                    <div class="img_wrap-r">
+                        <div class="img_back_green-r">
+                            
+                        </div>
+                        <img src="./assests/images/p-img8.jpg" alt="" class="new_services-img-r">
+                    </div>
+                </div>
+            </div>
+
+            <div class="new_services_row_wrap">
+                <div class="new_services_col_wrap-img">
+                    <div class="img_wrap-l">
+                        <div class="img_back_green-l">
+                            
+                        </div>
+                        <img src="./assests/images/p-img8.jpg" alt="" class="new_services-img-l">
+                    </div>
+                </div>
+                <div class="new_services_col_wrap-des new_services_col_wrap-des-l">
+                    <h1 class="services_h1">Service Three</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adi Molestiae aperiam quibusdam placeat laborum iure optio porro eligeagnam soluta, natus atque cumque tempora numquamndi ad max impedit quas exercitationem, nemo laboriosam. ime.</p>
+                    <p>Lorem ipsum dolor sit a. consectetur adipisicing elit. Earum quibusdam eveniet debitis pisicing elit. Earum quibusdam eveniet debitis m quo molestias dolor, laborum voluptas similique vel commodi. Odio, nostrum optio? Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, </p>
+                    <p>Lorem ipsum dolor sit a. consectetur adipisicing elit. Earum quibusdam eveniet debitis nemo iusto repellendus amet maiores exercitationem voluptates perferendis laudantium, veniam earum tempore natus eligendi rem maxime quam. Enim totam dicta eveniet! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque ullam inventore aperiam fugit quos </p>
+                </div>
+            </div>
+
+            <div class="new_services_row_wrap">
+               
+                <div class="new_services_col_wrap-des  new_services_col_wrap-des-r">
+                    <h1 class="services_h1">Service Four</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adi Molestiae aperiam quibusdam placeat laborum iure optio porro eligeagnam soluta, natus atque cumque tempora numquamndi ad max impedit quas exercitationem, nemo laboriosam. ime.</p>
+                    <p>Lorem ipsum dolor sit a. consectetur adipisicing elit. Earum quibusdam eveniet debitis pisicing elit. Earum quibusdam eveniet debitis m quo molestias dolor, laborum voluptas similique vel commodi. Odio, nostrum optio? Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, </p>
+                    <p>Lorem ipsum dolor sit a. consectetur adipisicing elit. Earum quibusdam eveniet debitis nemo iusto repellendus amet maiores exercitationem voluptates perferendis laudantium, veniam earum tempore natus eligendi rem maxime quam. Enim totam dicta eveniet! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque ullam inventore aperiam fugit quos </p>
+                </div>
+
+                <div class="new_services_col_wrap-img new_services_col_wrap-img-r">
+                    <div class="img_wrap-r">
+                        <div class="img_back_green-r">
+                           
+                        </div>
+                        <img src="./assests/images/p-img8.jpg" alt="" class="new_services-img-r">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="products" class="product-container">
+            <div class="product_header">
+                <div class="">
+                    <h1 class="product_hiden_title">PRODUCTS</h1>
+                    <h2 class="product_title">Products</h2>
+                </div>
+            </div>
+            <div>
+                <p class="topic_p">A little bit of what we have done just to share & sense our bottom heart pleasure by designing and building these amazing things with you.</p>
+            </div>
+            <div class="product_card_row">
+                
+                <div style="display: flex; justify-content: center; align-items: center; flex-direction: column;" class="product-card-wrap p_1">
+                    <div class="product_box" onclick="loadDescMain(1)">
+                        <div class="product-img-div">
+                            <img src="./assests/images/p-img8.jpg" alt="" >
+                        </div>
+                        <h1 style="text-align: center;">Product One</h1>
+                    </div>
+                    <div id="product_des-1" class="product_des" ></div>
+                </div>
+
+                <div style="display: flex; justify-content: center; align-items: center; flex-direction: column;" class="product-card-wrap p_2">
+                    <div class="product_box"  onclick="loadDescMain(2)">
+                        <div class="product-img-div">
+                            <img src="./assests/images/p-img7.jpg" alt="" >
+                        </div>
+                        <h1 style="text-align: center;">Product Two</h1>
+                    </div>
+                    <div id="product_des-2" class="product_des"></div>
+                </div>
+
+                <div style="display: flex; justify-content: center; align-items: center; flex-direction: column;" class="product-card-wrap p_3">
+                    <div class="product_box"  onclick="loadDescMain(3)">
+                        <div class="product-img-div">
+                            <img src="./assests/images/p-img6.jpg" alt="" >
+                        </div>
+                        <h1 style="text-align: center;">Product Three</h1>
+                    </div>
+                    <div id="product_des-3" class="product_des"></div>
+                </div>
+
+                <div style="display: flex; justify-content: center; align-items: center; flex-direction: column;" class="product-card-wrap p_4">
+                    <div class="product_box"  onclick="loadDescMain(4)">
+                        <div class="product-img-div">
+                            <img src="./assests/images/p-img5.jpg" alt="" >
+                        </div>
+                        <h1 style="text-align: center;">Product Four</h1>
+                    </div>
+                    <div id="product_des-4" class="product_des"></div>
+                </div>
+              
+                <div style="display: flex; justify-content: center; align-items: center; flex-direction: column;" class="product-card-wrap p_5">
+                    <div class="product_box"  onclick="loadDescMain(5)">
+                        <div class="product-img-div">
+                            <img src="./assests/images/p-img3.jpg" alt="" >
+                        </div>
+                        <h1 style="margin-left: 10px;">Product Five</h1>
+                    </div>
+                    <div id="product_des-5" class="product_des"></div>
+                </div>
+            </div>
+            <div class="product_des_main" id="product_des_main" style="margin-left: 25px; margin-right: 25px;">Description-01 ---We are furnishing a service spread from residential domestic houses to commercial and star grade office interior spaces in Sri Lanka. The artistic and architectural value of our designs seconds our name, the Design Square again and again. The creativity and the tailormade nature which well-matched with the client needs have elevated our projects and assignments in a higher rank branch, top notch in the design world tree.</div>
+        </section>
+
+        <section id="projects" class="project-container">
+            <div class="project_header">
+                <div class="">
+                    <h1 class="project_hiden_title">PROJECTS</h1>
+                    <h2 class="project_title">Projects</h2>
+                </div>
+            </div>
+            <div>
+                <p class="topic_p">A little bit of what we have done just to share & sense our bottom heart pleasure by designing and building these amazing things with you.</p>
+            </div>
+           
+            <div class="project_image_container">
+                <div class="img_main_col img_main_col-1">
+                    <div class="img_box" style="width: 389px; height: 545px;">
+                        <img src="./assests/images/g-img1.png" alt="" style="width: 389px; height: 545px;">
+                        <div class="description">p-img1</div>
+                    </div>
+
+                    <div class="img_box" style="width: 376px; height: 328px;">
+                        <img src="./assests/images/g-img2.png" alt="" style="width: 376px; height: 328px;">
+                        <div class="description">p-img2</div>
+                    </div>
+
+                    <div class="img_box" style="width: 376px; height: 259px;">
+                        <img src="./assests/images/g-img3.png" alt="" style="width: 376px; height: 259px;">
+                        <div class="description">p-img3</div>
+                    </div>
+                </div>
+
+                <div class="img_main_col img_main_col-2">
+                    <div style="display: flex; flex-direction: row;">
+                        <div class="img_box" style="width: 222px; height: 405px;">
+                            <img src="./assests/images/g-img4.png" alt="" style="width: 222px; height: 405px;">
+                            <div class="description">p-img4</div>
+                        </div>
+                        <div class="img_box" style="width: 236px; height: 353px; margin-top: 40px;">
+                            <img src="./assests/images/g-img5.png" alt="" style="width: 236px; height: 353px;">
+                            <div class="description">p-img5</div>
+                        </div>
+                    </div>
+
+                    <div style="display: flex; flex-direction: row;">
+                        <div class="img_box" style="width: 236px; height: 354px;">
+                            <img src="./assests/images/g-img-6.png" alt="" style="width: 236px; height: 354px;">
+                            <div class="description">p-img6</div>
+                        </div>
+                        <div class="img_box" style="width: 236px; height: 314px;">
+                            <img src="./assests/images/g-img-7.png" alt="" style="width: 236px; height: 314px;">
+                            <div class="description">p-img7</div>
+                        </div>
+                    </div>
+
+                    <div class="img_box" style="width: 482px; height: 479px;">
+                        <img src="./assests/images/g-img8.png" alt="" style="width: 482px; height: 479px;">
+                        <div class="description">p-img8</div>
+                    </div>
+                </div>
+
+                <div class="img_main_col img_main_col-3">
+
+                    <div class="img_box" style="width: 377px; height: 642px;">
+                        <img src="./assests/images/g-img10.png" alt="" style="width: 377px; height: 642px;">
+                        <div class="description">p-img10</div>
+                    </div>
+
+                    <div class="img_box hide1" style="width: 381px; height: 311px;" >
+                        <img src="./assests/images/g-img9.png" alt="" style="width: 381px; height: 311px;">
+                        <div class="description">p-img9</div>
+                    </div>
+                </div>
+
+                <div class="img_main_col img_main_col-4" style="display: none;">
+                    <div class="img_box" style="width: 381px; height: 311px;" >
+                        <img src="./assests/images/g-img9.png" alt="" style="width: 381px; height: 311px;">
+                        <div class="description">p-img9</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project_image_hide_container" style="display: none;">
+                <div class="img_box" style="width: 389px; height: 545px;">
+                    <img src="./assests/images/g-img1.png" alt="" style="width: 389px; height: 545px;">
+                    <div class="description">p-img1</div>
+                </div>
+
+                <div class="img_box" style="width: 376px; height: 328px;">
+                    <img src="./assests/images/g-img2.png" alt="" style="width: 376px; height: 328px;">
+                    <div class="description">p-img2</div>
+                </div>
+
+                <div class="img_box" style="width: 376px; height: 259px;">
+                    <img src="./assests/images/g-img3.png" alt="" style="width: 376px; height: 259px;">
+                    <div class="description">p-img3</div>
+                </div>
+
+                <div class="img_box" style="width: 222px; height: 405px;">
+                    <img src="./assests/images/g-img4.png" alt="" style="width: 222px; height: 405px;">
+                    <div class="description">p-img4</div>
+                </div>
+
+                <div class="img_box" style="width: 236px; height: 353px;">
+                    <img src="./assests/images/g-img5.png" alt="" style="width: 236px; height: 353px;">
+                    <div class="description">p-img5</div>
+                </div>
+
+                <div class="img_box" style="width: 236px; height: 354px;">
+                    <img src="./assests/images/g-img-6.png" alt="" style="width: 236px; height: 354px;">
+                    <div class="description">p-img6</div>
+                </div>
+
+                <div class="img_box" style="width: 236px; height: 314px;">
+                    <img src="./assests/images/g-img-7.png" alt="" style="width: 236px; height: 314px;">
+                    <div class="description">p-img7</div>
+                </div>
+
+                <div class="img_box" style="width: 482px; height: 479px;">
+                    <img src="./assests/images/g-img8.png" alt="" style="width: 482px; height: 479px;">
+                    <div class="description">p-img8</div>
+                </div>
+
+                <div class="img_box" style="width: 381px; height: 311px;">
+                    <img src="./assests/images/g-img9.png" alt="" style="width: 381px; height: 311px;">
+                    <div class="description">p-img9</div>
+                </div>
+
+                <div class="img_box" style="width: 377px; height: 642px;" >
+                    <img src="./assests/images/g-img10.png" alt="" style="width: 377px; height: 642px;">
+                    <div class="description">p-img10</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 
+        <section id="clients" class="client-container">
+            <div class="client_header">
+                <div class="">
+                    <h1 class="client_hiden_title">CLIENTS</h1>
+                    <h2 class="client_title">Clients</h2>
+                    <p class="client_pragraph">We are delighted to introduce some of our valuable clients who achieved the dream drawn in their mind successfully with us. There are thousands and one but here are just a few.</p>
+                </div>
+            </div>
+
+            <div class="client_wrap">
+                <div class="client_sub_wrap">
+                    <img src="./assests/images/client.png" alt="" style="width: 100px; height: 100px;">
+                    <h2 class="client_name">Name</h2>
+                </div>
+                <div class="client_sub_wrap">
+                    <img src="./assests/images/client.png" alt="" style="width: 100px; height: 100px;">
+                    <h2 class="client_name">Name</h2>
+                </div>
+                <div class="client_sub_wrap">
+                    <img src="./assests/images/client.png" alt="" style="width: 100px; height: 100px;">
+                    <h2 class="client_name">Name</h2>
+                </div>
+                <div class="client_sub_wrap">
+                    <img src="./assests/images/client.png" alt="" style="width: 100px; height: 100px;">
+                    <h2 class="client_name">Name</h2>
+                </div>
+                <div class="client_sub_wrap">
+                    <img src="./assests/images/client.png" alt="" style="width: 100px; height: 100px;">
+                    <h2 class="client_name">Name</h2>
+                </div>
+            </div>
+        </section>
+        -->
+
+        <section id="contact" class="contact-container">
+            <div class="contact_header">
+                <div class="">
+                    <h1 class="contact_hiden_title">CONTACT US</h1>
+                    <h2 class="contact_title">Get In Touch With Us</h2>
+                </div>
+            </div>
+            <div>
+                <p class="topic_p" >A little bit of what we have done just to share & sense our bottom heart pleasure by designing and building these amazing things with you.</p>
+            </div>
+            <div class="map_container" style="margin-top: 20px;">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.7425313627173!2d79.85958037809414!3d7.270112474009416!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae2e9b5ecbf102f%3A0x4d7c9e7907105358!2sNeat%20Scales%20(Pvt)%20Ltd!5e0!3m2!1sen!2slk!4v1689010378428!5m2!1sen!2slk" width="90%" height="200px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" style="position: relative;"></iframe>
+            </div>
+
+            <div class="contact_content">
+                <div class="contact_details">
+                    <h3 style="font-family: 'Abril Fatface', cursive; font-weight: 400; letter-spacing: 1px;">ADDRESS</h3>
+                    <p style="font-family: 'Manrope', sans-serif; font-weight: 400;">244/B, Dadugama, Ja-Ela</p>
+                    <p style="font-family: 'Manrope', sans-serif; font-weight: 400;">Sri Lanka</p>
+
+                    <h3 style="font-family: 'Abril Fatface', cursive; font-weight: 400; letter-spacing: 1px;">PHONE</h3>
+                    <p style="font-family: 'Manrope', sans-serif; font-weight: 400;">(+94) 76 0681075</p>
+                    <p style="font-family: 'Manrope', sans-serif; font-weight: 400;">(+94) 77 2069501</p>
+
+                    <h3 style="font-family: 'Abril Fatface', cursive; font-weight: 400; letter-spacing: 1px;">EMAIL</h3>
+                    <p style="font-family: 'Manrope', sans-serif; font-weight: 400;">dilshan.designsquare@gmail.com</p>
+
+                    <h3>SOCIAL</h3>
+                    <img src="./assests/images/fb (3).png" alt="" style="width: 30px; height: 30px; ">
+                    <img src="./assests/images/fb (2).png" alt="" style="width: 30px; height: 30px; ">
+                    <img src="./assests/images/fb (1).png" alt="" style="width: 30px; height: 30px; ">
+                </div>
+                <div class="contact_email">
+                    <div style="display: flex; flex-direction: row; width: 100%; justify-content: center; align-items: center;">
+                        <input type="text" placeholder="Your Name" style="width: 40%; height: 20px; margin-right: 5%; margin-top: 10px; margin-bottom: 10px; background-color: rgba(217,217,217,0.2); border: rgba(0, 0, 0, 0.2);  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); padding: 5px; ">
+                        <input type="text" placeholder="Your Email" style="width: 40%; height: 20px; margin-left: 4%; margin-top: 10px; margin-bottom: 10px; background-color: rgba(217,217,217,0.2); border: rgba(0, 0, 0, 0.2);  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); padding: 5px; ">
+                    </div>
+                    <div style="display: flex; flex-direction: column; width: 100%; justify-content: center; align-items: center;">
+                        <input type="text" placeholder="Subject" style="width:90%; height: 20px; margin-top: 10px; margin-bottom: 10px; background-color: rgba(217,217,217,0.2); border: rgba(0, 0, 0, 0.2);  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); padding: 5px; padding-left: 10px;">
+                        <textarea placeholder="Message"  name="" id="" cols="30" rows="10"  style="width:90%;  margin-top: 10px; margin-bottom: 10px; background-color: rgba(217,217,217,0.2); border: rgba(0, 0, 0, 0.2);  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);  padding: 5px; padding-left: 10px;"></textarea>
+                    </div>
+                    <button class="btn_send_email">Send Email</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="footer-container" >
+            <div class="contacts_wrap">
+                <div class="contacts_sub_wrap">
+                    <img src="./assests/images/logo.jpg" alt="" style="width: 94px; height: 94px; padding-top: 20px;">
+                    <p>Lorem, ip amet sit consequatur in? Magnam ab debitis beatae placeat laborum aut, deleniti illum.</p>
+                </div>
+                <div class="contacts_sub_wrap">
+                    <h1>ABOUT US</h1>
+                    <ul>
+                        <li>FAQ</li>
+                        <li>Blog</li>
+                        <li>Design & Quotes</li>
+                        <li>Warrenty</li>
+                        <li>Trade Partners</li>
+                        <li>Design</li>
+                    </ul>
+                </div>
+                <div class="contacts_sub_wrap">
+                    <h1>SERVICES</h1>
+                    <ul>
+                        <li>Interior Planner</li>
+                        <li>Smart Care</li>
+                        <li>Architecture</li>
+                        <li>Office Interior Design</li>
+                        <li>Hotel Interior Design</li>
+                        <li>Home Interior Design</li>
+                        <li>Home Visit</li>
+                    </ul>
+                </div>
+                <div class="contacts_sub_wrap">
+                    <h1>QUICK LINKS</h1>
+                    <ul>
+                        <li>FAQ</li>
+                        <li>Blog</li>
+                        <li>Design & Quotes</li>
+                        <li>Warrenty</li>
+                        <li>Trade Partners</li>
+                        <li>Design</li>
+                        <li>Our Team</li>
+                    </ul>
+                </div>
+                <div class="contacts_sub_wrap">
+                    <h1>CONTACT US</h1>
+                    <p>Lorem ipsum dolor. Magnam incidunt adipisci sapiente, corrupti .</p>
+                    <div class="contacts_details">
+                        <p>Phone:</p>
+                        <p>(+94) 11 33 9796</p>
+                    </div>
+                    <div class="contacts_details">
+                        <p>Fax:</p>
+                        <p>(+94) 11 33 9886</p>
+                    </div>
+                    <div class="contacts_details">
+                        <p>Email:</p>
+                        <p>(+94) 11 33 9886</p>
+                    </div>
+                    <div class="contacts_details">
+                        <p>Web:</p>
+                        <p>(+94) 11 33 9886</p>
+                    </div>
+                </div>
+            </div>
+
+            <footer>
+                <p>CopyRight &copy; 2023 INTELLEON . All Rights Reserved.</p>
+            </footer>
+
+        </section>
+       
+    </div>
+</body>
+<script src="./assests/js/script.js"></script>
+</html>
